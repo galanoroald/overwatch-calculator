@@ -1,0 +1,19 @@
+	<?php
+		
+		echo"<div class='dropdown'>
+				<button class='btn btn-info btn-xs dropdown-toggle ' type='button' data-toggle='dropdown'><font color = 'black'>Character Select</font>
+					<span class='caret'></span></button>
+						<ul class='dropdown-menu'>";
+							$result = mysqli_query($mysqli, "SELECT * FROM hero");
+					
+							if($result){
+								while($row = mysqli_fetch_array($result)){
+									echo "<li><button class = 'Invisbutton' id = '".$row[0]."' value='".$row[1]."' onclick = 'updateChar(this.id,".$counter.");'>".$row[2]."</button></li>";
+								}
+							}	
+						echo"</ul>
+						
+						
+		</div>
+		<button class='btn btn-danger btn-sm glyphicon glyphicon-remove' onclick = 'removeChar(".$counter.");'></button>";
+	?>

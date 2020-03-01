@@ -1,0 +1,13 @@
+
+<div id="myNav" class="overlay">
+  <a href="javascript:void(0)" class="closebtn" onclick="closeNav()">&times;</a>
+  <div class="overlay-content h2">
+    <a style = "font-size:45px;" href="index.php">Home</a>
+	<a style = "font-size:45px;" href="about.php">About</a>
+	<a style = "font-size:45px;" href="allHero.php">Heroes</a>
+  </div>
+</div>
+
+<div>
+	<span class = "h1" style="font-size:50px;cursor:pointer;" onclick="openNav()">&#9776; Menu</span>
+</div>

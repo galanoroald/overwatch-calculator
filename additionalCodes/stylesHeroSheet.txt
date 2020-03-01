@@ -1,0 +1,53 @@
+		@font-face { font-family: big_noodle; src: url('fonts/big_noodle_titling_oblique.ttf'); } 
+		.bodybg{
+			background-image: url("overwatch/hex_bg.jpg");
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		
+		#hero{
+			text-shadow: 1px 2px #000000;
+			color: orange;
+		}
+		
+		#health{
+			text-shadow: 1px 2px #000000;
+			color: green;
+		}
+		
+		#armor{
+			text-shadow: 1px 2px #000000;
+			color: yellow;
+		}
+		
+		#shield{
+			text-shadow: 1px 2px #000000;
+			color: skyblue;
+		}
+		
+		th{
+			text-shadow: 1px 2px #000000;
+			color: orange;
+		}
+		
+		td{
+			text-shadow: 1px 2px #000000;
+			color: white;
+		}
+		.h1{
+			font-family: big_noodle;
+			text-shadow: 2px 3px #000000;
+			color: white;
+			font-size: 60px;
+		}
+		
+		.h2{
+			font-family: big_noodle;
+			color: white;
+			font-size: 24px;
+		}
+		
+		.table-hover tbody tr:hover td, .table-hover tbody tr:hover th {
+			background-color: gray;
+		}

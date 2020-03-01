@@ -1,0 +1,122 @@
+		@font-face { font-family: big_noodle; src: url('fonts/big_noodle_titling_oblique.ttf'); } 
+		ul{
+			list-style-type: disc;
+			columns: 2;
+			-webkit-columns: 2;
+			-moz-columns: 2;
+			list-style-position: inside;
+		}
+		
+		.Invisbutton {
+			background-color: Transparent;
+			background-repeat:no-repeat;
+			border: none;
+			cursor:pointer;
+			overflow: hidden;
+			outline:none;
+		}
+		
+		#hero_selection img:hover {  
+			opacity: .5; not selected
+			background-blend-mode: lighten;
+
+		}
+		
+		.panel{
+			margin-top: 24px;
+		}
+		
+		.bodybg{
+			background-color: white;
+			background-size: cover;
+			background-repeat: no-repeat;
+			background-attachment: fixed;
+		}
+		
+		#hero_selection{
+			background-color: grey;
+		}
+		
+		#hero_selection span{
+			text-shadow: 2px 3px #000000;
+		}
+		
+		#team_comp{
+			//background-image: url("overwatch/red.png");
+			padding: 5px;
+			text-shadow: 2px 3px #000000;
+		}
+		#gameInfo{
+			//background-image: url("overwatch/pur.png");
+		}
+		
+		.h2{
+			font-family: big_noodle;
+			color: white;
+			font-size: 24px;
+		}
+		
+		.h4{
+			font-family: big_noodle;
+			text-shadow: 2px 3px #000000;
+			color: white;
+		}
+		
+		.h1{
+			font-family: big_noodle;
+			text-shadow: 2px 3px #000000;
+			color: white;
+			font-size: 60px;
+		}
+		
+		#mapTitle{
+			font-family: big_noodle;
+			text-shadow: 2px 3px #000000;
+			color: rgb(255,160,0);
+		}
+		
+		.btn-primary{
+			background-color:#FFFFFF !important;
+			border-color:#FFFFFF !important;
+		}
+ 
+		.btn-primary:hover,
+		.btn-primary:visited,
+		.btn-primary:active{
+			background-color:#EBEBEB !important;
+			border-color:#EBEBEB !important;
+		}
+		
+		.btn-danger{
+			background-color:#FFA000 !important;
+			border-color:#FFA000 !important;
+		}
+		
+		.btn-danger:hover,
+		.btn-danger:visited,
+		.btn-danger:active{
+			background-color:#D18300!important;
+			border-color:#D18300 !important;
+		}
+		
+		#result_head .panel-heading{
+			font-family: big_noodle;
+			text-shadow: 2px 3px #000000;
+		}
+		
+		.hvr-glow{  
+			width: 100%;
+			
+		}
+		
+		#Rresult{
+			background-color: yellow;
+			border-radius:20px;
+			background:rgba(225,25,0,0.4);
+		}
+		
+		#Bresult{
+			background-color: red;
+			border-radius:20px;
+			background:rgba(0,100,200,0.4);
+		}

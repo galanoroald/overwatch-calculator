@@ -1,0 +1,13 @@
+		<div class='dropdown'>
+				<button class='btn btn-primary dropdown-toggle' type='button' data-toggle='dropdown'>Character Select
+					<span class='caret'></span></button>
+						<ul class='dropdown-menu'>
+							<li><button id = 'd1' value='Defense/1.png'>Bastion</button></li>
+							<li><button id = 'd2' value='Defense/2.png'>Hanzo</button></li>
+							<li><button id = 'd3' value='Defense/3.png'>Junkrat</button></li>
+							<li><button id = 'd4' value='Defense/4.png'>Mei</button></li>
+							<li><button id = 'd5' value='Defense/5.png'>Torbjorn</button></li>
+							<li><button id = 'd6' value='Defense/6.png'>Windowmaker</button></li>
+						</ul>
+		</div>
+		<button id = 'update".$counter."' class='btn btn-danger' >Remove Character</button>
